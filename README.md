@@ -6,5 +6,7 @@ Pre-processor and styles for formatting guitar and ukulele chords charts with La
 * [Sample output](https://dl.dropboxusercontent.com/u/3286618/sample-full.pdf) (full-sheet) 
 
 Dependencies:
+ * [Racket](http://racket-lang.org/)
+ * LaTeX / latexmk
  * http://www.ctan.org/pkg/gtrcrd
  * http://www.ctan.org/pkg/gchords
