@@ -1,6 +1,6 @@
 %% -*- mode: LaTeX;-*-
 \documentclass[8pt,twoside]{chords-condensed}
-%% \documentclass[10pt,twoside]{chords}
+%% \documentclass[10pt,twoside]{chords-full}
 %% \usepackage{roboto}
 
 \songauthor{}
