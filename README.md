@@ -5,6 +5,7 @@ Racket based pre-processor and LaTeX styles for formatting guitar and ukulele ch
 * [Sample markup](sample.cwb)
 * [Sample output](https://dl.dropboxusercontent.com/u/3286618/sample.pdf) (condensed) 
 * [Sample output](https://dl.dropboxusercontent.com/u/3286618/sample-full.pdf) (full-sheet) 
+* [Sample output](https://dl.dropboxusercontent.com/u/3286618/sample-aggregate.pdf) (2x2 printable)
 
 Dependencies:
  * [Racket](http://racket-lang.org/)
