@@ -2,7 +2,8 @@
 
 Pre-processor and styles for formatting guitar and ukulele chords charts with LaTeX 
 
-* [Sample Output](https://www.dropbox.com/s/ktl1qq3fpowku40/sample.pdf?dl=0)
+* [Sample Output] (consensed) (https://dl.dropboxusercontent.com/u/3286618/sample.pdf)
+* [Sample Output] (full-sheet) (https://dl.dropboxusercontent.com/u/3286618/sample-full.pdf)
 
 Dependencies:
  * http://www.ctan.org/pkg/gtrcrd
