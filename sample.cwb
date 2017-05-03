@@ -1,0 +1,59 @@
+%% -*- mode: LaTeX;-*-
+\documentclass[9pt,twoside]{chords-condensed}
+%% \documentclass[10pt,twoside]{chords}
+
+\songauthor{Bob Dylan}
+\songtitle{Knockin' on Heaven's Door}
+
+\begin{document}
+\begin{multicols}{2}
+<G> Mama, take this <D> badge off of <Am> me
+<G> I can't <D> use it any<C>{more}
+<G> It's gettin' <D> dark, too dark to <Am> see
+<G> I feel like I'm <D> knockin' on heaven's <C> door
+\texttt{/ G D Am - / G D C - / : }
+
+  <G> Knock, knock, <D> knockin' on heaven's <Am> door
+  <G> Knock, knock, <D> knockin' on heaven's <C> door
+  <G> Knock, knock, <D> knockin' on heaven's <Am> door
+  <G> Knock, knock, <D> knockin' on heaven's <C> door
+  \texttt{/ G D Am - / G D C - / : }
+
+Mama, put my guns in the ground
+I can't shoot them anymore
+That long black cloud is comin' down
+I feel like I'm knockin' on heaven's door ...
+
+\textit{Mama wipe the blood from my face
+I'm sick and tired of the war
+Got a lone black feelin', and it's hard to trace
+Feel like I'm knockin' on heaven's door}
+
+\columnbreak
+
+\textit{Mama take these bells out of my ears
+I can't hear them anymore
+They're bringin' me down and givin' me tears
+Feel like I'm knockin' on heaven's door}
+
+\textit{Mama I can hear that thunder roar
+Echoin' down from God's distant shore
+I can hear it callin' for my soul
+Feel I'm knockin' on heaven's door}
+
+\textit{Mama tow my barge down to sea
+Pull it down from shore to shore
+Two brown eyes are lookin' at me
+Feel like I'm knockin' on heaven's door}
+
+\textit{Mama take me above all that misery
+Let it fall down to the floor
+Two brown eyes are looking at me
+Feel like I'm knockin' on heaven's door}
+
+\textit{The sun is setting down
+On this ill-forgotten town
+Two riders are coming down
+Bury my heart in this ground}
+\end{multicols}
+\end{document}

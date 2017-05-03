@@ -1,0 +1,11 @@
+%% -*- mode: LaTeX;-*-
+\documentclass[8pt,twoside]{chords-condensed}
+%% \documentclass[10pt,twoside]{chords}
+%% \usepackage{roboto}
+
+\songauthor{}
+\songtitle{}
+%% \fancyhead[R]{}
+
+\begin{document}
+\end{document}
