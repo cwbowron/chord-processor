@@ -1,6 +1,6 @@
 %% -*- mode: LaTeX;-*-
 \documentclass[9pt,twoside]{chords-condensed}
-%% \documentclass[10pt,twoside]{chords}
+%% \documentclass[10pt,twoside]{chords-full}
 
 \songauthor{Bob Dylan}
 \songtitle{Knockin' on Heaven's Door}
