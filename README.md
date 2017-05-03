@@ -10,5 +10,5 @@ Racket based pre-processor and LaTeX styles for formatting guitar and ukulele ch
 Dependencies:
  * [Racket](http://racket-lang.org/)
  * LaTeX / latexmk
- * http://www.ctan.org/pkg/gtrcrd
- * http://www.ctan.org/pkg/gchords
+   * http://www.ctan.org/pkg/gtrcrd
+   * http://www.ctan.org/pkg/gchords
