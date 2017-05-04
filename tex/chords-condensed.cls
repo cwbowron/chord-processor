@@ -67,7 +67,7 @@
 \newcommand{\ukeEm}{\def\strings{4}\chord{t}{o,p4,p3,p2}{Em}}
 \newcommand{\ukeEseven}{\def\strings{4}\chord{t}{p1,p2,o,p2}{E7}}
 
-\newcommand{\ukeEb}{\def\strings{4}\chord{t}{p1,p3,p3,o}{Eb}}
+\newcommand{\ukeEb}{\def\strings{4}\chord{t}{o,p3,p3,1}{Eb}}
 
 \newcommand{\ukeF}{\def\strings{4}\chord{t}{p2,o,p1,o}{F}}
 \newcommand{\ukeFm}{\def\strings{4}\chord{t}{p1,o,p1,p3}{Fm}}
