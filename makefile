@@ -2,7 +2,7 @@ SRCS=$(wildcard *.cwb)
 PDFS=$(SRCS:.cwb=.pdf)
 racket="/Applications/Racket v6.8/bin/racket"
 
-TEXINPUTS := ${TEXINPUTS}:cls/:
+TEXINPUTS := ${TEXINPUTS}:tex/:
 export TEXINPUTS
 
 default: all
@@ -10,7 +10,7 @@ default: all
 %.tex:	%.cwb ./chord-processor.rkt
 	${racket} ./chord-processor.rkt $*.cwb
 
-%.pdf:	%.tex cls/chords-full.cls cls/chords-condensed.cls cls/chords-common.cls
+%.pdf:	%.tex tex/chords-full.cls tex/chords-condensed.cls tex/chords-common.cls
 	latexmk -pdf $*.tex 
 	latexmk -c $*.tex 
 
