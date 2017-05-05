@@ -53,6 +53,7 @@
 \newcommand{\ukeBseven}{\def\strings{4}\chord{t}{p4,p3,p2,o}{B7}}
 
 \newcommand{\ukeC}{\def\strings{4}\chord{t}{o,o,o,p3}{C}}
+\newcommand{\ukeCMajSeven}{\def\strings{4}\chord{t}{o,o,o,p2}{Cmaj7}}
 \newcommand{\ukeCm}{\def\strings{4}\chord{t}{o,p3,p3,p3}{Cm}}
 \newcommand{\ukeCseven}{\def\strings{4}\chord{t}{o,o,o,p1}{C7}}
 
