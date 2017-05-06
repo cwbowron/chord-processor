@@ -2,8 +2,8 @@
 
 (require racket/path)
 
-(define BEGIN-DOCUMENT "\\begin{document}")
-(define END-DOCUMENT "\\end{document}")
+(define BEGIN-PROCESSING "\\begin{chord-processor}")
+(define END-PROCESSING "\\end{chord-processor}")
 
 (define (process-line text add-null)
   (let ([chords (list)])
@@ -70,17 +70,19 @@
              [last-line #f])
     (cond 
       ((eof-object? x) (values))
-      ((and processing (not (string-contains? x END-DOCUMENT)))
+      ((string-contains? x END-PROCESSING)
+       (displayln x)
+       (loop (read-line) #f x))
+      ((string-contains? x BEGIN-PROCESSING)
+       (displayln x)
+       (loop (read-line) #t x))
+      (processing
        (let-values ([(text chords) (process-line x (and last-line (> (string-length last-line) 0)))])
          (displayln text)
          (loop (read-line) #t text)))
       (else
        (displayln x)
-       (loop
-        (read-line)
-        (and (not (string-contains? x END-DOCUMENT))
-             (or processing (string-contains? x BEGIN-DOCUMENT)))
-        #f)))))
+       (loop (read-line) #f x)))))
 
 (define (print-port)
   (do ((x (read-line) (read-line)))

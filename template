@@ -8,4 +8,6 @@
 %% \fancyhead[R]{}
 
 \begin{document}
+\begin{chord-processor}
+\end{chord-processor}
 \end{document}

@@ -100,3 +100,5 @@
 
 %% \AtBeginDocument{\begin{courier}}
 %% \AtEndDocument{\end{courier}}
+
+\newenvironment{chord-processor}{}{}
