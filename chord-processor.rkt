@@ -75,7 +75,7 @@
        (loop (read-line) #f x))
       ((string-contains? x BEGIN-PROCESSING)
        (displayln x)
-       (loop (read-line) #t x))
+       (loop (read-line) #t #f))
       (processing
        (let-values ([(text chords) (process-line x (and last-line (> (string-length last-line) 0)))])
          (displayln text)
