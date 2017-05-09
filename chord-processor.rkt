@@ -70,19 +70,13 @@
              [last-line #f])
     (cond 
       ((eof-object? x) (values))
-      ((string-contains? x END-PROCESSING)
-       (displayln x)
-       (loop (read-line) #f x))
-      ((string-contains? x BEGIN-PROCESSING)
-       (displayln x)
-       (loop (read-line) #t #f))
-      (processing
+      ((and processing (not (string-contains? x END-PROCESSING)))
        (let-values ([(text chords) (process-line x (and last-line (> (string-length last-line) 0)))])
          (displayln text)
          (loop (read-line) #t text)))
-      (else
+      (else 
        (displayln x)
-       (loop (read-line) #f x)))))
+       (loop (read-line) (string-contains? x BEGIN-PROCESSING) #f)))))
 
 (define (print-port)
   (do ((x (read-line) (read-line)))
