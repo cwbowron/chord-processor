@@ -19,6 +19,18 @@
 \usepackage{marginnote}
 \usepackage{amsmath}
 \usepackage{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{roboto}
+
+%% https://en.wikibooks.org/wiki/LaTeX/Colors
+\newcommand{\TT}[1]{\texttt{\textbf{#1}}}
+\newcommand{\colorTT}[2]{\textcolor{#2}{\TT{#1}}}
+\newcommand{\ttb}[1]{\colorTT{#1}{blue}}
+\newcommand{\ttr}[1]{\colorTT{#1}{red}}
+\newcommand{\ttg}[1]{\colorTT{#1}{ForestGreen}}
+\newcommand{\ttv}[1]{\colorTT{#1}{Violet}}
+\newcommand{\ttp}[1]{\colorTT{#1}{Purple}}
+\newcommand{\ttf}[1]{\colorTT{#1}{Fuchsia}}
 
 \setlength{\columnseprule}{.25pt}
 \setlength{\crdheight}{2.5ex}

@@ -1,11 +1,15 @@
 %% -*- mode: LaTeX;-*-
 \documentclass[8pt,twoside]{chords-condensed}
 %% \documentclass[10pt,twoside]{chords-full}
-%% \usepackage{roboto}
 
 \songauthor{}
 \songtitle{}
 %% \fancyhead[R]{}
+
+%% \TT{}
+%% \ttb{}
+%% \ttr{}
+%% \ttg{}
 
 \begin{document}
 \begin{chord-processor}
