@@ -31,6 +31,7 @@
 \newcommand{\ttv}[1]{\colorTT{#1}{Violet}}
 \newcommand{\ttp}[1]{\colorTT{#1}{Purple}}
 \newcommand{\ttf}[1]{\colorTT{#1}{Fuchsia}}
+\newcommand{\ttx}[1]{\ttr{#1}}
 
 \setlength{\columnseprule}{.25pt}
 \setlength{\crdheight}{2.5ex}
