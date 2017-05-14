@@ -1,6 +1,7 @@
 %% -*- mode: LaTeX;-*-
 \documentclass[8pt,twoside]{chords-condensed}
 %% \documentclass[10pt,twoside]{chords-full}
+%% \usepackage{varwidth}
 
 \songauthor{}
 \songtitle{}
@@ -14,4 +15,13 @@
 \begin{document}
 \begin{chord-processor}
 \end{chord-processor}
+%% \centering
+%% \begin{varwidth}{\linewidth}
+%% \begin{verbatim}
+%% a|----------------------------------------------2-3-5/7-5-----------|
+%% e|-----------5b-3-5---------5b-3---------5b-3-5---------------------|
+%% C|---2---2--------------2--------4---2------------------------------|
+%% g|------------------------------------------------------------------|
+%% \end{verbatim}
+%% \end{varwidth}
 \end{document}
