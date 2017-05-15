@@ -57,6 +57,7 @@
 \newcommand{\ukeCm}{\def\strings{4}\chord{t}{o,p3,p3,p3}{Cm}}
 \newcommand{\ukeCseven}{\def\strings{4}\chord{t}{o,o,o,p1}{C7}}
 
+\newcommand{\ukeCsharp}{\def\strings{4}\chord{t}{f1p1,f1p1,f1p1,f4p4f1p1}{C$\sharp$}}
 \newcommand{\ukeCsharpm}{\def\numfrets{7}\def\strings{4}\chord{t}{p6,p4,p4,p4}{C$\sharp$m}}
 
 \newcommand{\ukeD}{\def\strings{4}\chord{t}{p2,p2,p2,o}{D}}
