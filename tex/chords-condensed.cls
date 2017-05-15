@@ -63,7 +63,7 @@
 \newcommand{\ukeDm}{\def\strings{4}\chord{t}{p2,p2,p1,o}{Dm}}
 \newcommand{\ukeDseven}{\def\strings{4}\chord{t}{p2,p2,p2,p3}{D7}}
 
-\newcommand{\ukeE}{\def\strings{4}\chord{t}{p1,p4,o,p2}{E}}
+\newcommand{\ukeE}{\def\strings{4}\chord{t}{f1p1,f4p4,o,f2p2}{E}}
 \newcommand{\ukeEalt}{\def\strings{4}\chord{t}{p4,p4,p4,p2}{E (alt)}}
 \newcommand{\ukeEm}{\def\strings{4}\chord{t}{o,p4,p3,p2}{Em}}
 \newcommand{\ukeEseven}{\def\strings{4}\chord{t}{p1,p2,o,p2}{E7}}
@@ -71,11 +71,12 @@
 \newcommand{\ukeEb}{\def\strings{4}\chord{t}{o,p3,p3,1}{Eb}}
 
 \newcommand{\ukeF}{\def\strings{4}\chord{t}{p2,o,p1,o}{F}}
-\newcommand{\ukeFm}{\def\strings{4}\chord{t}{p1,o,p1,p3}{Fm}}
+\newcommand{\ukeFm}{\def\strings{4}\chord{t}{f1p1,o,f2p1,f4p3}{Fm}}
 \newcommand{\ukeFseven}{\def\strings{4}\chord{t}{p2,p3,p1,o}{F7}}
 
-\newcommand{\ukeFsharp}{\def\strings{4}\chord{t}{p3,p1,p2,p1}{F$\sharp$}}
+\newcommand{\ukeFsharp}{\def\strings{4}\chord{t}{f3p3,f1p1,f2p2f1p1,f1p1}{F$\sharp$}}
 \newcommand{\ukeFsharpm}{\def\strings{4}\chord{t}{p2,p1,p2,o}{F$\sharp$m}}
+\newcommand{\ukeFsharpseven}{\def\strings{4}\chord{t}{f2p2,f3p3,f1p1,f4p3}{F$\sharp$m}}
 
 \newcommand{\ukeG}{\def\strings{4}\chord{t}{o,p2,p3,p2}{G}}
 \newcommand{\ukeGm}{\def\strings{4}\chord{t}{o,p2,p3,p1}{Gm}}
