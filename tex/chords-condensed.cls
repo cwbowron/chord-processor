@@ -46,7 +46,7 @@
 
 \newcommand{\ukeBb}{\def\strings{4}\chord{t}{p3,p2,p1,p1}{B$\flat$}}
 \newcommand{\ukeBbm}{\def\strings{4}\chord{t}{p3,p1,p1,p1}{B$\flat$m}}
-\newcommand{\ukeBbseven}{\def\strings{4}\chord{t}{p1,p2,p1,p1}{Bb7}}
+\newcommand{\ukeBbseven}{\def\strings{4}\chord{t}{f1p1,f2p2f1p1,f1p1,f1p1}{B$\flat$7}}
 
 \newcommand{\ukeB}{\def\strings{4}\chord{t}{p4,p3,p2,p2}{B}}
 \newcommand{\ukeBm}{\def\strings{4}\chord{t}{p4,p2,p2,p2}{Bm}}
@@ -58,7 +58,9 @@
 \newcommand{\ukeCseven}{\def\strings{4}\chord{t}{o,o,o,p1}{C7}}
 
 \newcommand{\ukeCsharp}{\def\strings{4}\chord{t}{f1p1,f1p1,f1p1,f4p4f1p1}{C$\sharp$}}
-\newcommand{\ukeCsharpm}{\def\numfrets{7}\def\strings{4}\chord{t}{p6,p4,p4,p4}{C$\sharp$m}}
+%% \newcommand{\ukeCsharpm}{\def\numfrets{7}\def\strings{4}\chord{t}{p6,p4,p4,p4}{C$\sharp$m}}
+\newcommand{\ukeCsharpm}{\def\strings{4}\chord{{3~}}{p3,p1,p1,p1}{C$\sharp$m}}
+\newcommand{\ukeCsharpseven}{\def\strings{4}\chord{t}{f1p1,f1p1,f1p1,f2p2f1p1}{C$\sharp$7}}
 
 \newcommand{\ukeD}{\def\strings{4}\chord{t}{p2,p2,p2,o}{D}}
 \newcommand{\ukeDm}{\def\strings{4}\chord{t}{p2,p2,p1,o}{Dm}}
