@@ -14,8 +14,10 @@
 \smallchords
 %% \chords{\ukeBb\ukeCsharp}
 %% \chords{\ukeBbm\ukeCsharpm}
-\chords{\ukeA\ukeBb\ukeB\ukeC\ukeCsharp\ukeD\ukeE\ukeF\ukeFsharp\ukeG}
-\chords{\ukeAm\ukeBbm\ukeBm\ukeCm\ukeCsharpm\ukeDm\ukeEm\ukeFm\ukeFsharpm\ukeGm}
-\chords{\ukeAseven\ukeBbseven\ukeBseven\ukeCseven\ukeCsharpseven\ukeDseven\ukeEseven\ukeFseven\ukeFsharpseven\ukeGseven}
+\newlength{\foo}
+\setlength{\foo}{-2.5ex}
+\chords{\hspace{\foo}\ukeA\ukeBb\ukeB\ukeC\ukeCsharp\ukeD\ukeEb\ukeE\ukeF\ukeFsharp\ukeG\ukeGsharp}
+\chords{\hspace{\foo}\ukeAm\ukeBbm\ukeBm\ukeCm\ukeCsharpm\ukeDm\ukeEbm\ukeEm\ukeFm\ukeFsharpm\ukeGm\ukeGsharpm}
+\chords{\hspace{\foo}\ukeAseven\ukeBbseven\ukeBseven\ukeCseven\ukeCsharpseven\ukeDseven\ukeEbseven\ukeEseven\ukeFseven\ukeFsharpseven\ukeGseven\ukeGsharpseven}
 
 \end{document}
