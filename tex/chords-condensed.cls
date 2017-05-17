@@ -20,7 +20,8 @@
   inner=16pt,
   outer=16pt,
   %% bottom=4pt,
-  bottom=.125in
+  %% bottom=.125in
+  bottom=.25in
 }
 
 %% No column divider
