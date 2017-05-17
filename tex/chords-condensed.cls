@@ -14,12 +14,13 @@
   %% top=20pt,
   %% headsep=6pt,
   %% top=7ex,
-  top=.5in,
+  top=.375in,
   %% top=.375in,
   headsep=1.5ex,
   inner=16pt,
   outer=16pt,
-  bottom=4pt,
+  %% bottom=4pt,
+  bottom=.125in
 }
 
 %% No column divider
