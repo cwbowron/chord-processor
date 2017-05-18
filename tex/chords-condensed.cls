@@ -7,6 +7,7 @@
 \usepackage{gchords}
 
 \geometry{
+  includehead,
   %% paperheight=4.0in,
   paperheight=4.25in,
   paperwidth=5.5in,
@@ -14,7 +15,8 @@
   %% top=20pt,
   %% headsep=6pt,
   %% top=7ex,
-  top=.375in,
+  %% top=.375in,
+  top=.125in,
   %% top=.375in,
   headsep=1.5ex,
   inner=16pt,
