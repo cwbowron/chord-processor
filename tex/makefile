@@ -7,4 +7,8 @@ default: all
 	latexmk -pdf $*.tex 
 	latexmk -c $*.tex 
 
+%.png:	%.pdf
+	convert -density 600 -antialias -alpha remove -background white $*.pdf $*.png
+	# cp $**.png "/Users/cwbowron/Amazon Drive/Documents/uke/"
+
 all:  $(PDFS)
