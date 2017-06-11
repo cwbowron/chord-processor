@@ -47,6 +47,7 @@
 \newcommand{\ukeA}{\def\strings{4}\chord{t}{p2,p1,o,o}{A}}
 \newcommand{\ukeAm}{\def\strings{4}\chord{t}{p2,o,o,o}{Am}}
 \newcommand{\ukeAseven}{\def\strings{4}\chord{t}{o,p1,o,o}{A7}}
+\newcommand{\ukeAmseven}{\def\strings{4}\chord{t}{o,o,o,o}{Am7}}
 
 \newcommand{\ukeBb}{\def\strings{4}\chord{t}{p3,p2,p1,p1}{B$\flat$}}
 \newcommand{\ukeBbm}{\def\strings{4}\chord{t}{p3,p1,p1,p1}{B$\flat$m}}
@@ -55,6 +56,7 @@
 \newcommand{\ukeB}{\def\strings{4}\chord{t}{p4,p3,p2,p2}{B}}
 \newcommand{\ukeBm}{\def\strings{4}\chord{t}{p4,p2,p2,p2}{Bm}}
 \newcommand{\ukeBseven}{\def\strings{4}\chord{t}{p4,p3,p2,o}{B7}}
+\newcommand{\ukeBmseven}{\def\strings{4}\chord{t}{p2,p2,p2,p2}{Bm7}}
 
 \newcommand{\ukeC}{\def\strings{4}\chord{t}{o,o,o,p3}{C}}
 \newcommand{\ukeCMajSeven}{\def\strings{4}\chord{t}{o,o,o,p2}{Cmaj7}}
