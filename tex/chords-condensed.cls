@@ -71,6 +71,7 @@
 \newcommand{\ukeD}{\def\strings{4}\chord{t}{p2,p2,p2,o}{D}}
 \newcommand{\ukeDm}{\def\strings{4}\chord{t}{p2,p2,p1,o}{Dm}}
 \newcommand{\ukeDseven}{\def\strings{4}\chord{t}{p2,p2,p2,p3}{D7}}
+\newcommand{\ukeDmseven}{\def\strings{4}\chord{t}{p2,p2,p1,p3}{Dm7}}
 
 \newcommand{\ukeEb}{\def\strings{4}\chord{t}{o,p3,p3,p1}{E$\flat$}}
 \newcommand{\ukeEbm}{\def\strings{4}\chord{t}{p3,p3,p2,p1}{E$\flat$m}}
