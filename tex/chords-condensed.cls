@@ -95,7 +95,7 @@
 \newcommand{\ukeGm}{\def\strings{4}\chord{t}{o,p2,p3,p1}{Gm}}
 \newcommand{\ukeGseven}{\def\strings{4}\chord{t}{o,p2,p1,p2}{G7}}
 
-\newcommand{\ukeGsharp}{\def\strings{4}\chord{t}{p5,p3,p4,p3}{G$\sharp$}}
+\newcommand{\ukeGsharp}{\def\strings{4}\chord{t}{p5,f1p3,p4f1p3,f1p3}{G$\sharp$}}
 \newcommand{\ukeGsharpm}{\def\strings{4}\chord{t}{p4,p3,p4,p2}{G$\sharp$m}}
 \newcommand{\ukeGsharpseven}{\def\strings{4}\chord{t}{p1,p3,p2,p3}{G$\sharp$7}}
 
