@@ -13,6 +13,7 @@
 %% \ttb{}
 %% \ttr{}
 %% \ttg{}
+%% \fontsize{7pt}{7pt}\selectfont
 
 \begin{document}
 \begin{chord-processor}
