@@ -1,6 +1,7 @@
 %% -*- mode: LaTeX;-*-
 %% \PassOptionsToPackage{sfdefault,condensed}{roboto}
-\documentclass[8pt,twoside]{chords-condensed}
+\documentclass[8pt,twoside]{chords-index}
+%% \documentclass[8pt,twoside]{chords-condensed}
 %% \documentclass[10pt,twoside]{chords-full}
 %% \usepackage{varwidth}
 
