@@ -6,7 +6,9 @@ Racket based pre-processor and LaTeX styles for formatting guitar and ukulele ch
 
 Sample Output:
 
+<div>
 <object data="output/sample.pdf" width="550" height="425" type='application/pdf'/>
+</div>
 
 Dependencies:
  * [Racket](http://racket-lang.org/)
