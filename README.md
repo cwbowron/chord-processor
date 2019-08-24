@@ -1,14 +1,15 @@
 # chord-processor
 
-Racket based pre-processor and LaTeX styles for formatting guitar and ukulele chords charts. It can create full page (8.5" x 11") annotated chord and lyrics charts, or condensed versions intended to fit 1/4 page in landscape orientation. Ideal for printing 4 songs per page and cut into highly portable song sheets.
+Racket based pre-processor and LaTeX styles for formatting guitar and ukulele chord and lyrics charts.
 
+Includes layouts for:
+* Full page (8.5" x 11") 
+* 1/4 Page (5.5" x 4.25") - Ideal for printing 4 songs per page and cut into highly portable song sheets. 
+* Index card (6" x 4")
+
+Samples:
 * [Sample markup](sample.cwb)
-
-Sample Output:
-
-<div>
-<object data="output/sample.pdf" width="550" height="425" type='application/pdf'/>
-</div>
+* [Sample output](output/sample.pdf)
 
 Dependencies:
  * [Racket](http://racket-lang.org/)
