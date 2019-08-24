@@ -10,6 +10,7 @@ Includes layouts for:
 Samples:
 * [Sample markup](sample.cwb)
 * [Sample output](output/sample.pdf)
+* [Ukulele chord chart](output/uke-chart.pdf)
 
 Dependencies:
  * [Racket](http://racket-lang.org/)
