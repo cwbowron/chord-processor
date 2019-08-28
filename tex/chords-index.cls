@@ -21,7 +21,7 @@
   outer=16pt,
   %% bottom=4pt,
   %% bottom=.125in
-  bottom=.25in
+  bottom=.125in
 }
 
 %% https://tex.stackexchange.com/questions/88133/fancyhdr-not-centering-after-changed-geometry {
