@@ -32,7 +32,6 @@
 \setlength{\parskip}{4pt plus1em minus1em}
 
 %% Setup header: Title -- Author
-\usepackage{fancyhdr}
 \fancypagestyle{condensed}{%
 \renewcommand{\headrulewidth}{.25pt}
 \renewcommand{\footrulewidth}{0pt}

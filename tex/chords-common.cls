@@ -21,6 +21,7 @@
 \usepackage{geometry}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{roboto}
+\usepackage{fancyhdr}
 
 %% https://en.wikibooks.org/wiki/LaTeX/Colors
 \newcommand{\TT}[1]{\texttt{\textbf{#1}}}
